@@ -63,7 +63,11 @@ function avantiTwo() {
 
     //3) Sommiamo i due numeri
     sum = askNumber + numRandom;
-    prova.innerHTML = `${sum}`;
+    if (sum % 2 === 0) {
+        prova.innerHTML = `${sum}, pari`;
+    } else {
+        prova.innerHTML = `${sum}, dispari`;
+    }
 
     //5) Dichiariamo chi ha vinto.
     if (askEvenOdd == isEvenOrOdd(sum)) {
@@ -81,7 +85,7 @@ function randomNumber() {
 
 //4) Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 function isEvenOrOdd(number) {
-    if (number % 2 == 0) {
+    if (number % 2 === 0) {
         return "pari"
     } else {
         return "dispari"

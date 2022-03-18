@@ -97,6 +97,10 @@
 .fs_4em {
     font-size: 4em;
 }
+
+.fs_6em {
+    font-size: 6em;
+}
 /*margin*/
 .m_0_auto {
     margin: 0 auto;

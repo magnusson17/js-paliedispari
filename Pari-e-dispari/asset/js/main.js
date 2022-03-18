@@ -67,9 +67,9 @@ function avantiTwo() {
 
     //5) Dichiariamo chi ha vinto.
     if (askEvenOdd == isEvenOrOdd(sum)) {
-        prova2.innerHTML += `<div>hai vinto!</div>`
+        prova2.innerHTML = `<div>hai vinto!</div>`
     } else {
-        prova2.innerHTML += `<div>hai perso!</div>`
+        prova2.innerHTML = `<div>hai perso!</div>`
     }
 }
 

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body {
+    background-image: url("../img/dice-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+/*bg color*/
+.bg_F0466F {
+    background-color: #F0466F;
+}
+
+.bg_0BD6A1 {
+    background-color: #0BD6A1;
+}
+
+.bg_FFD166_rgba_05 {
+    background-color: rgba(255, 209, 102, 0.5);
+}
+
+.bg_FFD166 {
+    background-color: #FFD166;
+}
+
+.bg_1389B2 {
+    background-color: #1389B2;
+}
+
+.bg_083B4C {
+    background-color: #083B4C;
+}
+/*width*/
+.w_100 {
+    width: 100%;
+}
+
+.w_50 {
+    width: 50%;
+}
+
+.w_75_vw {
+    width: 75vw;
+}
+
+.w_100px {
+    width: 100px;
+}
+/*height*/
+.h_100px {
+    height: 100px;
+}
+
+.h_400px {
+    height: 400px;
+}
+/*border*/
+.border_rad_20px {
+    border-radius: 20px;
+}
+/*text property*/
+.text_centered {
+    text-align: center;
+}
+
+.text_white {
+    color: white;
+}
+
+.text_green {
+    color: green;
+}
+
+.text_red {
+    color: red;
+}
+
+.text_yellow {
+    color: yellow;
+}
+
+.fs_1_5em {
+    font-size: 1.5em;
+}
+
+.fs_3em {
+    font-size: 3em;
+}
+
+.fs_4em {
+    font-size: 4em;
+}
+/*margin*/
+.m_0_auto {
+    margin: 0 auto;
+}
+
+.my_50px {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mb_10px {
+    margin-bottom: 10px;
+}
+/*padding*/
+.p_20px {
+    padding: 20px;
+}
+
+.py_5px {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.px_5px {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.ps_50px {
+    padding-left: 50px;
+}
+/*display flex*/
+.d_flex {
+    display: flex;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+.flex_direction_column {
+    flex-direction: column;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.justify_content_between {
+    justify-content: space-between;
+}
+
+.justify_content_around {
+    justify-content: space-around;
+}
+/*display (general)*/
+.d_inline_block {
+    display: inline-block;
+}
+
+.d_block {
+    display: block;
+}
+
+.d_none {
+    display: none;
+}
+
+.v_hidden {
+    visibility: hidden;
+}
+/*multi-use classes*/
+.btn_basic {
+    border: none;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn_basic:hover {
+    background-color: #083B4C;
+    color: white;
+    cursor: pointer;
+}

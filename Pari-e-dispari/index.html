@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <title>pari dispari</title>
 </head>
 <body>
-    <div id="container"></div>
+
+    <div>
+        <h1 class="w_100 text_centered">PARI O DISPARI</h1>
+        <div class="w_100 d_flex flex_direction_column align_items_center">
+            <div id="container-ask-even-odd" class="d_flex flex_direction_column align_items_center">
+                <label for="even-odd-input">pari o dispari?</label>
+                <input id="even-odd-input" type="text" placeholder="scrivi pari o dispari">
+                <button onclick="avantiOne()">Avanti</button>
+            </div>
+    
+            <div id="container-ask-number" class="d_flex flex_direction_column align_items_center v_hidden">
+                <label for="number-choice-input">che numero scegli?</label>
+                <input id="number-choice-input" type="number" min="1" max="5" placeholder="scrivi un numero da 1 a 5">
+                <button onclick="avantiTwo()">Avanti</button>
+            </div>
+        </div>
+
+        <div id="my-container"></div>
+        <div id="pc-container"></div>
+
+        <div id="prova"></div>
+
+        <div id="prova2"></div>
+    </div>
 
     <script type="text/javascript" src="./asset/js/main.js"></script>
 </body>

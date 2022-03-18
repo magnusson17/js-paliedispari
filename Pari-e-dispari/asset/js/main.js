@@ -63,7 +63,6 @@ function avantiTwo() {
 
     //3) Sommiamo i due numeri
     sum = askNumber + numRandom;
-    console.log(sum);
     prova.innerHTML = `${sum}`;
 
     //5) Dichiariamo chi ha vinto.
@@ -83,10 +82,8 @@ function randomNumber() {
 //4) Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 function isEvenOrOdd(number) {
     if (number % 2 == 0) {
-        console.log("pari")
         return "pari"
     } else {
-        console.log("dispari")
         return "dispari"
     }
 }

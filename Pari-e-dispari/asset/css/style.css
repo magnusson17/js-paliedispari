@@ -86,8 +86,12 @@
     color: yellow;
 }
 
-.text_FFD04C {
-    color: #FFD04C;
+.text_E4A316 {
+    color: #E4A316;
+}
+
+.text_FFC83D {
+    color: #FFC83D;
 }
 
 .contorno {
@@ -117,6 +121,10 @@
 
 .font_style_italic {
     font-style: italic;
+}
+
+.font_style_normal {
+    font-style: normal;
 }
 /*border*/
 .border_rad_5px {

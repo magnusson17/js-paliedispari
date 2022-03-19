@@ -4,7 +4,7 @@
 4) Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 5) Dichiariamo chi ha vinto.*/
 
-//👊✊
+//👊✊🔥
 //prompt e container user names
 let userName = prompt("Inserisci uno user name");
 let userNameP = document.getElementById("user-name-p");
@@ -45,7 +45,7 @@ function avantiTwo() {
     if (askNumber === 5) {
         myContainer.innerHTML = `<div>🖐</div>`
     } else if (askNumber === 4) {
-        myContainer.innerHTML = `<div><i class="fa-solid fa-hand-fist text_FFD04C contorno"></i></div>`
+        myContainer.innerHTML = `<div><i class="fa-solid fa-hand-fist text_FFC83D contorno mt_30px"></i></div>`
     } else if (askNumber === 3) {
         myContainer.innerHTML = `<div>🤟</div>`
     } else if (askNumber === 2) {
@@ -60,7 +60,7 @@ function avantiTwo() {
     if (numRandom === 5) {
         pcContainer.innerHTML = `<div>🖐</div>`
     } else if (numRandom === 4) {
-        pcContainer.innerHTML = `<div><i class="fa-solid fa-hand-fist text_FFD04C contorno"></i></div>`
+        pcContainer.innerHTML = `<div><i class="fa-solid fa-hand-fist text_FFC83D contorno mt_30px"></i></div>`
     } else if (numRandom === 3) {
         pcContainer.innerHTML = `<div>🤟</div>`
     } else if (numRandom === 2) {

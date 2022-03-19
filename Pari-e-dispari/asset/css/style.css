@@ -91,7 +91,7 @@
 }
 
 .contorno {
-    /* 4 pixel black shadow to left, top, right and bottom */
+    /* 6 pixel black shadow to left, top, right and bottom */
     text-shadow: -6px 0 black, 0 6px black, 6px 0 black, 0 -6px black;
   }
 

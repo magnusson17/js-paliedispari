@@ -4,10 +4,10 @@
 4) Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 5) Dichiariamo chi ha vinto.*/
 
-//✊
-let prova = document.getElementById("prova");
-let prova2 = document.getElementById("prova2");
-
+//prompt e container user names
+let userName = prompt("Inserisci uno user name");
+let userNameP = document.getElementById("user-name-p");
+//container principali
 let myContainer = document.getElementById("my-container");
 let pcContainer = document.getElementById("pc-container");
 //variabili che mi servono per trasferire al loro interno il .value dei button
@@ -19,9 +19,15 @@ let containerAskNumber = document.getElementById("container-ask-number");
 //gli input dei button
 let evenOddInput = document.getElementById("even-odd-input");
 let numberChoiceInput = document.getElementById("number-choice-input");
+//i div che contengono il risultato
+let prova = document.getElementById("prova");
+let prova2 = document.getElementById("prova2");
 //
 let numRandom;
 let sum;
+
+//0) metti a video lo user name
+userNameP.innerHTML = `${userName}`
 
 //1.1) L’utente sceglie pari o dispari (quindi sblocco con remove(v_hiden) il passaggio successivo).
 function avantiOne() {

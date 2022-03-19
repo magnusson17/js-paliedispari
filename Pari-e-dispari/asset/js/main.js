@@ -8,9 +8,9 @@
 //prompt e container user names
 let userName = prompt("Inserisci uno user name");
 let userNameP = document.getElementById("user-name-p");
-//id versus
+//id versus (SE IL PUNTO 6.1 E' COMMENTATO QUESTA MANIPOLAZIONE DEL DOM E' SUPERFLUA)
 let versus = document.getElementById("versus")
-//container principali
+//container principali, contengono le hands emoji
 let myContainer = document.getElementById("my-container");
 let pcContainer = document.getElementById("pc-container");
 //variabili che mi servono per trasferire al loro interno il .value dei button
@@ -53,7 +53,6 @@ function avantiTwo() {
     } else if (askNumber === 1) {
         myContainer.innerHTML = `<div>☝</div>`
     }
-    console.log(askNumber);
 
     //2) Generiamo (QUA LO STO RICHIAMANDO) un numero random (sempre da 1 a 5) per il computer (usando una funzione)
     randomNumber();
@@ -68,7 +67,6 @@ function avantiTwo() {
     } else if (numRandom === 1) {
         pcContainer.innerHTML = `<div>☝</div>`
     }
-    console.log(numRandom);
 
     //3) Sommiamo i due numeri
     sum = askNumber + numRandom;

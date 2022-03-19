@@ -226,3 +226,43 @@
     color: white;
     cursor: pointer;
 }
+/*ANIMATION*/
+.shake_my_fist {
+    animation: myShake 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myShake {
+    0% { transform: rotate(20deg); }
+    10% { transform: rotate(0deg); }
+    20% { transform: rotate(-20deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(20deg); }
+    50% { transform: rotate(0deg); }
+    60% { transform: rotate(-20deg); }
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(0deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(20deg); }
+  }
+
+.shake_pc_fist {
+    animation: pcShake 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pcShake {
+    0% { transform: rotate(-20deg); }
+    10% { transform: rotate(0deg); }
+    20% { transform: rotate(20deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(-20deg); }
+    50% { transform: rotate(0deg); }
+    60% { transform: rotate(20deg); }
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(0deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(-20deg); }
+  }
+  
+  

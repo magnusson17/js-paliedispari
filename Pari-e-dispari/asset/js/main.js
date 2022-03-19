@@ -4,6 +4,7 @@
 4) Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 5) Dichiariamo chi ha vinto.*/
 
+//👊✊
 //prompt e container user names
 let userName = prompt("Inserisci uno user name");
 let userNameP = document.getElementById("user-name-p");
@@ -77,10 +78,14 @@ function avantiTwo() {
 
     //5) Dichiariamo chi ha vinto.
     if (askEvenOdd == isEvenOrOdd(sum)) {
-        prova2.innerHTML = `<div>hai vinto! <i class="fa-solid fa-face-grin-squint"></i></div>`
+        prova2.innerHTML = `<div class="text_green fs_2em">hai vinto! <i class="fa-solid fa-face-grin-squint"></i></div>`
     } else {
-        prova2.innerHTML = `<div>hai perso <i class="fa-solid fa-face-sad-cry"></i></div>`
+        prova2.innerHTML = `<div class="text_red fs_2em">hai perso <i class="fa-solid fa-face-sad-cry"></i></div>`
     }
+
+    //6) Togli l'animazione
+    pcContainer.classList.remove("shake_pc_fist");
+    myContainer.classList.remove("shake_my_fist");
 }
 
 //2) Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).

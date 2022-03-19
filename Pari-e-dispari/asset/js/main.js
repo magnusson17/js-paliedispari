@@ -6,8 +6,8 @@
 
 //👊✊
 //prompt e container user names
-/*let userName = prompt("Inserisci uno user name");
-let userNameP = document.getElementById("user-name-p");*/
+let userName = prompt("Inserisci uno user name");
+let userNameP = document.getElementById("user-name-p");
 //id versus
 let versus = document.getElementById("versus")
 //container principali

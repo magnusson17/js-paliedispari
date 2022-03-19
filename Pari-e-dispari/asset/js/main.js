@@ -6,8 +6,10 @@
 
 //👊✊
 //prompt e container user names
-let userName = prompt("Inserisci uno user name");
-let userNameP = document.getElementById("user-name-p");
+/*let userName = prompt("Inserisci uno user name");
+let userNameP = document.getElementById("user-name-p");*/
+//id versus
+let versus = document.getElementById("versus")
 //container principali
 let myContainer = document.getElementById("my-container");
 let pcContainer = document.getElementById("pc-container");
@@ -43,7 +45,7 @@ function avantiTwo() {
     if (askNumber === 5) {
         myContainer.innerHTML = `<div>🖐</div>`
     } else if (askNumber === 4) {
-        myContainer.innerHTML = `<div>✌✌</div>`
+        myContainer.innerHTML = `<div><i class="fa-solid fa-hand-fist text_FFD04C contorno"></i></div>`
     } else if (askNumber === 3) {
         myContainer.innerHTML = `<div>🤟</div>`
     } else if (askNumber === 2) {
@@ -58,7 +60,7 @@ function avantiTwo() {
     if (numRandom === 5) {
         pcContainer.innerHTML = `<div>🖐</div>`
     } else if (numRandom === 4) {
-        pcContainer.innerHTML = `<div>✌✌</div>`
+        pcContainer.innerHTML = `<div><i class="fa-solid fa-hand-fist text_FFD04C contorno"></i></div>`
     } else if (numRandom === 3) {
         pcContainer.innerHTML = `<div>🤟</div>`
     } else if (numRandom === 2) {
@@ -71,9 +73,9 @@ function avantiTwo() {
     //3) Sommiamo i due numeri
     sum = askNumber + numRandom;
     if (sum % 2 === 0) {
-        prova.innerHTML = `${sum}, pari`;
+        prova.innerHTML = `${askNumber} e ${numRandom} fa ${sum}, pari`;
     } else {
-        prova.innerHTML = `${sum}, dispari`;
+        prova.innerHTML = `${askNumber} e ${numRandom} fa ${sum}, dispari`;
     }
 
     //5) Dichiariamo chi ha vinto.
@@ -83,9 +85,11 @@ function avantiTwo() {
         prova2.innerHTML = `<div class="text_red fs_2em">hai perso <i class="fa-solid fa-face-sad-cry"></i></div>`
     }
 
-    //6) Togli l'animazione
+    //6.1) Togli l'animazione
     pcContainer.classList.remove("shake_pc_fist");
     myContainer.classList.remove("shake_my_fist");
+    //6.2) Togli VS
+    // versus.classList.add("d_none");
 }
 
 //2) Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).

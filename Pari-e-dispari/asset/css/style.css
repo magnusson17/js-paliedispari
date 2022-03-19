@@ -22,6 +22,10 @@
     background-color: #0BD6A1;
 }
 
+.bg_FFD04C {
+    background-color: #FFD04C;
+}
+
 .bg_FFD166_rgba_05 {
     background-color: rgba(255, 209, 102, 0.5);
 }
@@ -81,6 +85,15 @@
 .text_yellow {
     color: yellow;
 }
+
+.text_FFD04C {
+    color: #FFD04C;
+}
+
+.contorno {
+    /* 4 pixel black shadow to left, top, right and bottom */
+    text-shadow: -6px 0 black, 0 6px black, 6px 0 black, 0 -6px black;
+  }
 
 .fs_1_5em {
     font-size: 1.5em;
@@ -180,6 +193,10 @@
 
 .justify_content_around {
     justify-content: space-around;
+}
+
+.justify_self_center {
+    justify-self: center;
 }
 /*display (general)*/
 .d_inline_block {

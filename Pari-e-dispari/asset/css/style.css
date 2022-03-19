@@ -114,6 +114,10 @@
 .fs_6em {
     font-size: 6em;
 }
+
+.font_style_italic {
+    font-style: italic;
+}
 /*border*/
 .border_rad_5px {
     border-radius: 5px;

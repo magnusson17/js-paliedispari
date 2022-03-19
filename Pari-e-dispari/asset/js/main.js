@@ -73,9 +73,9 @@ function avantiTwo() {
     //3) Sommiamo i due numeri
     sum = askNumber + numRandom;
     if (sum % 2 === 0) {
-        prova.innerHTML = `${askNumber} e ${numRandom} fa ${sum}, pari`;
+        prova.innerHTML = `${askNumber} e ${numRandom} fa ${sum}, <span class="font_style_italic">pari</span>`;
     } else {
-        prova.innerHTML = `${askNumber} e ${numRandom} fa ${sum}, dispari`;
+        prova.innerHTML = `${askNumber} e ${numRandom} fa ${sum}, <span class="font_style_italic">dispari</span>`;
     }
 
     //5) Dichiariamo chi ha vinto.
